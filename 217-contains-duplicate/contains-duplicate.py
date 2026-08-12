@@ -3,8 +3,12 @@ class Solution:
         seen = set()
 
         for i in nums:
-            if i in seen:
-                return True
-            else:
+            if i not in seen:
                 seen.add(i)
+            else:
+                return True
         return False
+
+                
+
+                
