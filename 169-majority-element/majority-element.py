@@ -7,7 +7,9 @@ class Solution:
             else:
                 seen[num] = 1
         
-        for num in seen:
             if seen[num] > len(nums) // 2:
                 return num
-                
+
+        
+        
+        
